@@ -1,0 +1,39 @@
+.nav{
+    background-color: black;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: xx-large;
+    color: white;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.link{
+    background-color: black;
+    text-align: center;
+    border: white solid 1px;
+    width: 5em;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.link a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.link a:hover {
+    color: #cccccc; 
+}
+
+.sunMoon{
+    height: 115%;
+}
