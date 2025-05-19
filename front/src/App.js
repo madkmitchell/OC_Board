@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import AboutSite from './general/aboutSite/aboutSite.js';
 import Home from './general/home/home.js';
 import Guestbook from './general/guestbook/guestbook.js';
-import AboutMav from './mav_pages/about/about.js';
+import AboutMav from './mav_pages/about/mavAbout.js';
 import AboutGator from './gator_pages/about/about.js';
 
 function App() {
@@ -16,8 +16,8 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/aboutSite" element={<AboutSite />} />
           <Route path="/guestbook" element={<Guestbook />} />
-          <Route path="/aboutMav" element={<AboutMav />} />
-          <Route path="/aboutGator" element={<AboutGator />} />
+          <Route path="/mavAbout" element={<AboutMav />} />
+          <Route path="/gatorAbout" element={<AboutGator />} />
         </Routes>
       </div>
     </Router>

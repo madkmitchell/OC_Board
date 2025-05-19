@@ -11,8 +11,8 @@ const home = () => {
         <img className='userImg' src={'/images/cari.jpg'} alt="cari" />
         MAVERICK
 
-        <Link to="/mavHome"><button className='aboutButton'>ABOUT</button></Link>
-        <Link to="/mavHome"><button className='userButton'>Login</button></Link>
+        <Link to="/mavAbout"><button className='aboutButton'>ABOUT</button></Link>
+        <Link to="/mavHome"><button className='userButton'>LOGIN</button></Link>
       </div>
       <div className='user'>
         <img className='userImg' src={'/images/cari.jpg'} alt="cari" />
