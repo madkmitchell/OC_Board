@@ -20,8 +20,6 @@ const About = () => {
             <p>Howdy! I made this site because my OCs kept multiplying like rabbits with tragic backstories. Now they live here. Rent free.</p>
           </div>
 
-
-
           <div className="mavLinks">
             <h2>Find Me Elsewhere</h2>
             <div className="buttonRow">
@@ -53,7 +51,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div >
+        <div className='mavAboutImage'>
           <img className='bucksymbol' src={'/images/buck.png'} alt="mav" />
           <img className='dividerbuck' src={'/images/bucky.png'} alt="mav" />
           <img className='capsymbol' src={'/images/capSheild.png'} alt="mav" />

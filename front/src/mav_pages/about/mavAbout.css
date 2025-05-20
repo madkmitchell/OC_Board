@@ -1,68 +1,68 @@
-.mavAbout{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    background-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white;
-    border: white 2px solid;
-    border-radius: 15px;
-    padding: 5px;
-    padding-bottom: 10px;
-}
-
-.mavpfp{
-    width: 300px;
-    height: 300px;
-}
-
-
-body{
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: x-large;
-    text-align: center;
-}
-
-.mavAboutText{
+.mavAbout {
   display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    background-color: black;
-    margin-left: 50px;
-    margin-right: 50px;
-    color: white;
-    border-radius: 15px;
-    padding: 5px;
-    padding-bottom: 10px;
-    /* width: 90%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  background-color: black;
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  border: white 2px solid;
+  border-radius: 15px;
+  padding: 5px;
+  padding-bottom: 10px;
+}
+
+.mavpfp {
+  width: 300px;
+  height: 300px;
+}
+
+
+body {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-large;
+  text-align: center;
+}
+
+.mavAboutText {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  /* background-color: black; */
+  margin-left: 50px;
+  margin-right: 50px;
+  color: white;
+  border-radius: 15px;
+  padding: 5px;
+  padding-bottom: 10px;
+  /* width: 90%;
     padding: 20px;
     margin-left: 40px; */
 }
 
-.mavAboutHeader{
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 30px;
+.mavAboutHeader {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right: 30px;
 }
 
-.mavAboutExtra{
-    text-align: left;
-    display: flex;
-    width: 90%;
-    padding: 20px;
-    margin-left: 40px;
-    margin-top: 20px;
+.mavAboutExtra {
+  text-align: left;
+  display: flex;
+  width: 90%;
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 20px;
 }
 
 .mavLinks {
-  
+
   height: 500px;
   width: 30%;
   text-align: center;
@@ -92,39 +92,115 @@ body{
   background-color: #444;
 }
 
-.mavFooter{
-    font-size: medium;
+.mavFooter {
+  font-size: medium;
 }
 
-.tom{
+.tom {
   background-color: transparent;
   border: none;
   padding: 0;
 }
-.tom:hover{
+
+.tom:hover {
   background-color: transparent;
   cursor: pointer;
 }
 
-.dividerbuck{
-    width: 40%;
-    margin-top: 20px;
+.dividerbuck {
+  width: 40%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.bucksymbol {
+  height: 100px;
+  width: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 25px;
+
+}
+
+.capsymbol {
+  height: 90px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-bottom: 25px;
+
+}
+
+@media screen and (max-width: 412px) {
+  body{
+    background-image: url('../../../public/images/background.jpg');
+    background-size: cover;
+  }
+  .mavAbout {
+    flex-direction: column;
     margin-bottom: 20px;
-}
+  }
 
-.bucksymbol{
-    height: 100px;
+  .mavpfp {
+    width: 200px;
+    height: 200px;
+  }
+
+  .mavAboutText {
+    flex-direction: column;
     width: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 25px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 250px;
+    font-size: medium;
+  }
 
-}
+  .mavAboutHeader {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 200px;
+  }
 
-.capsymbol{
-    height: 90px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-bottom: 25px;
+  .mavAboutExtra {
+    width: 200px;
+    padding: 20px;
+    margin-left: 90px;
+    text-align: center;
+    margin-top: 0px;
+    flex-direction: column;
+    font-size: small;
+  }
+
+  .mavLinks {
+    width: 100%;
+    text-align: center;
+    margin-right: 210px;
+  }
+
+  .mavFooter {
+    font-size: small;
+    width: fit-content;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .bucksymbol {
+    height: 30px;
+    width: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .capsymbol {
+    height: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .mavAboutImage{
+    margin-top: 35px;
+    margin-bottom: -40px;
+  }
 
 }

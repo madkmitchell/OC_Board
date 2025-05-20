@@ -38,3 +38,33 @@
 .divider{
     width: 400px;
 }
+
+@media screen and (max-width: 412px) {
+    body{
+    background-image: url('../../../public/images/background.jpg');
+    background-size: cover;
+  }
+  
+    .stars{
+        width: 200px;
+        height: 100px;
+    }
+
+    .divider{
+        width: 200px;
+    }
+
+    .aboutText{
+        font-size: medium;
+    }
+
+    .aboutTitle{
+        margin-top: 5px;
+        font-size: x-large;
+    }
+    
+    .aboutSite{
+        font-size: small;
+    }
+    
+}

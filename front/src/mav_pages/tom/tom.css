@@ -1,0 +1,13 @@
+@media screen and (max-width: 820px) {
+  .tomImg {
+    width: 500px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  .tomImg {
+    width: 400px;
+    height: auto;
+  }
+}
