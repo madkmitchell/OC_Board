@@ -12,6 +12,7 @@
     border-radius: 15px;
     padding: 5px;
     padding-bottom: 10px;
+    text-align: center;
 }
 
 .stars{
@@ -25,7 +26,10 @@
 .aboutText{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    width: 1000px;
+    /* width: 1000px; */
+    margin-left: 40px;
+    margin-right: 40px;
+
     font-size: larger;
     margin-top: 20px;
     object-fit: cover;
