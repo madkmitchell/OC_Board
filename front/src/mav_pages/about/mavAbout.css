@@ -113,8 +113,18 @@ body{
 }
 
 .bucksymbol{
+    height: 100px;
     width: 100px;
     margin-left: 50px;
     margin-right: 50px;
     padding-bottom: 25px;
+
+}
+
+.capsymbol{
+    height: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 25px;
+
 }
