@@ -6,45 +6,58 @@ import { Link } from 'react-router-dom'
 const About = () => {
   return (
     <div className='mavAbout'>
-      <div className='mavAboutText'>
-        <h1>ABOUT MAVERICK</h1>
-       <Link to="/tom">
-          <button className='tom'>
-            <img className='mavpfp' src={'/images/pfp.jpg'} alt="mav" />
-          </button>
-        </Link>
+      <div className='mavAboutContainer'>
+        <div className='mavAboutText'>
+          <div className='mavAboutHeader'>
+            <h1>ABOUT MAVERICK</h1>
 
+            <Link to="/tom">
+              <button className='tom'>
+                <img className='mavpfp' src={'/images/pfp.jpg'} alt="mav" />
+              </button>
+            </Link>
 
-        <p>Howdy! I made this site because my OCs kept multiplying like rabbits with tragic backstories. Now they live here. Rent free.</p>
-
-        <div className="mavLinks">
-          <h2>Find Me Elsewhere</h2>
-          <div className="buttonRow">
-            <a href="https://x.com/cowpoke_killer_" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Twitter/X</button>
-            </a>
-            <a href="https://www.pinterest.com/cowpoke_killer_/mi-oc/" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Pinterest</button>
-            </a>
-            <a href="https://ckcomms.crd.co" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Commissions</button>
-            </a>
-            <a href="https://roosterpersonal.carrd.co" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Personal</button>
-            </a>
-            <a href="https://open.spotify.com/user/22sg7yj7choozht5itftmfvkq?si=aea813ced8004043&nd=1&dlsi=4dda9acea44946fb" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Spotify</button>
-            </a>
-            <a href="https://discord.com/users/748590435307356241" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Discord</button>
-            </a>
-            <a href="https://steamcommunity.com/profiles/76561199255515814/" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Steam</button>
-            </a>
-            <a href="https://www.instagram.com/cowpoke_killer_" target="_blank" rel="noopener noreferrer">
-              <button className="mavButton">Instagram</button>
-            </a>
+            <p>Howdy! I made this site because my OCs kept multiplying like rabbits with tragic backstories. Now they live here. Rent free.</p>
           </div>
+
+
+
+          <div className="mavLinks">
+            <h2>Find Me Elsewhere</h2>
+            <div className="buttonRow">
+              <a href="https://ckcomms.crd.co" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Commissions</button>
+              </a>
+              <a href="https://x.com/cowpoke_killer_" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Twitter/X</button>
+              </a>
+              <a href="https://www.pinterest.com/cowpoke_killer_/mi-oc/" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Pinterest</button>
+              </a>
+
+              <a href="https://roosterpersonal.carrd.co" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Personal</button>
+              </a>
+              <a href="https://open.spotify.com/user/22sg7yj7choozht5itftmfvkq?si=aea813ced8004043&nd=1&dlsi=4dda9acea44946fb" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Spotify</button>
+              </a>
+              <a href="https://discord.com/users/748590435307356241" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Discord</button>
+              </a>
+              <a href="https://steamcommunity.com/profiles/76561199255515814/" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Steam</button>
+              </a>
+              <a href="https://www.instagram.com/cowpoke_killer_" target="_blank" rel="noopener noreferrer">
+                <button className="mavButton">Instagram</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div classname="images">
+          <img className='bucksymbol' src={'/images/buck.png'} alt="mav" />
+          <img className='dividerbuck' src={'/images/bucky.png'} alt="mav" />
+          <img className='bucksymbol' src={'/images/capSheild.png'} alt="mav" />
+
         </div>
 
         <div className='mavAboutExtra'>
@@ -55,6 +68,7 @@ const About = () => {
               <li>Destroyer of timelines.</li>
               <li>Collector of over-designed characters.</li>
               <li>Probably talking to my OCs in the shower.</li>
+              <li>Can't spell normally</li>
             </ul>
           </div>
           {/* <div>
@@ -69,8 +83,8 @@ const About = () => {
 
             <h2>Tools I Use</h2>
             <ul>
-              <li><strong>Draw:</strong> Procreate, CSP</li>
-              <li><strong>Write:</strong> Docs</li>
+              <li><strong>Draw:</strong> Procreate, Sketchbook</li>
+              <li><strong>Write:</strong> Docs, Discord <i>(dont recommend)</i></li>
               <li><strong>Build:</strong> React, VS Code, dreams</li>
             </ul>
           </div>
