@@ -53,10 +53,10 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div classname="images">
+        <div >
           <img className='bucksymbol' src={'/images/buck.png'} alt="mav" />
           <img className='dividerbuck' src={'/images/bucky.png'} alt="mav" />
-          <img className='bucksymbol' src={'/images/capSheild.png'} alt="mav" />
+          <img className='capsymbol' src={'/images/capSheild.png'} alt="mav" />
 
         </div>
 
