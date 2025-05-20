@@ -22,7 +22,7 @@ const home = () => {
           <img className='userImg' src={'/images/cap.jpg'} alt="cap" />
           GATOR
 
-          <Link to="/gatorHome"><button className='aboutButton'>ABOUT</button></Link>
+          <Link to="/aboutGator"><button className='aboutButton'>ABOUT</button></Link>
           <Link to="/gatorHome"><button className='userButton'>Login</button></Link>
         </div>
       </div>
