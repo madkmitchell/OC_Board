@@ -1,9 +1,18 @@
 import React from 'react'
+import './mavHome.css'
 
-const mavHome = () => {
+const MavHome = () => {
+
+ 
+
   return (
-    <div>mavHome</div>
+     <div className="page">
+      <div>
+        
+      </div>
+      
+    </div>
   )
 }
 
-export default mavHome
+export default MavHome
