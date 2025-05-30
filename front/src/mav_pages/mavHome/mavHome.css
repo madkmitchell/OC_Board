@@ -119,3 +119,33 @@
   }
   
 }
+
+@media screen and (max-width: 412px) {
+  .page {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+  }
+
+  .how-to-use {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .warning {
+    width: 100%;
+    padding-left: 0;
+  }
+  .folders {
+    width: 100%;
+  }
+
+  .file-list {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+
+  .top {
+    font-size: medium;
+  }
+  
+}
