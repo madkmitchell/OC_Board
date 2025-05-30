@@ -142,6 +142,7 @@
 
   .file-list {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding-right: 25px;
   }
 
   .top {
