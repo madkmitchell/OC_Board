@@ -81,3 +81,16 @@
     }
   
 }
+
+@media screen and (max-width: 412px) {
+  body{
+    background-image: url('../../../public/images/background.jpg');
+    background-size: cover;
+  }
+
+    .stars{
+        width: 200px;
+        height: 100px;
+    }
+    
+}
