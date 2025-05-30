@@ -8,6 +8,7 @@ import AboutMav from './mav_pages/about/mavAbout.js';
 import AboutGator from './gator_pages/about/about.js';
 import Tom from './mav_pages/tom/tom.js';
 import MavHome from './mav_pages/mavHome/mavHome.js';
+import MavPreview from './mav_pages/mavPreview/mavPreview.js'; // ⬅️ import the new component
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/gatorAbout" element={<AboutGator />} />
           <Route path="/tom" element={<Tom />} />
           <Route path="/mavHome" element={<MavHome />} />
+          <Route path="/:category/:value" element={<MavPreview />} /> {/* ⬅️ new dynamic route */}
         </Routes>
       </div>
     </Router>
